@@ -9,17 +9,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Queues 14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-06 11:25+0530\n"
-"PO-Revision-Date: 2021-07-30 16:58+0500\n"
-"Language-Team: TranslAster\n"
+"POT-Creation-Date: 2021-03-01 15:16+0000\n"
+"PO-Revision-Date: 2021-10-21 17:49+0500\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Language-Team: TranslAster <https://github.com/translaster/>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.0\n"
-"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"Language: ru_RU\n"
 
 #: page.queues.php:19
 msgid " Add Queue"
@@ -330,7 +330,7 @@ msgstr ""
 msgid "Capacity Options"
 msgstr "Параметры емкости"
 
-#: functions.inc/queue_conf.php:219
+#: functions.inc/queue_conf.php:226
 msgid "Compound Recordings in Queues Detected"
 msgstr "Обнаружены составные записи в очередях"
 
@@ -440,7 +440,7 @@ msgid ""
 msgstr ""
 "При включении этой опции все вызовы помечаются как \"отвеченные в другом "
 "месте\" при отмене. Эффект заключается в том, что пропущенные вызовы очереди "
-"*не* отображаются на телефоне (если телефон поддерживает его)"
+"*не* отображаются на телефоне (если телефон поддерживает это)"
 
 #: views/form.php:619
 msgid "Event When Called"
@@ -809,7 +809,7 @@ msgstr "Постоянные участники"
 
 #: install.php:29 queues.i18n.php:38
 msgid "Playback Queue Caller Count"
-msgstr ""
+msgstr "Воспроизведение количества абонентов в очереди"
 
 #: views/form.php:1903
 msgid ""
@@ -833,7 +833,7 @@ msgstr "Очередь"
 msgid "Queue %s : %s"
 msgstr "Очередь %s : %s"
 
-#: functions.inc/queue_conf.php:217
+#: functions.inc/queue_conf.php:224
 #, php-format
 msgid "Queue - %s (%s): %s<br />"
 msgstr "Очередь - %s (%s): %s<br />"
@@ -856,7 +856,7 @@ msgstr "Название очереди"
 
 #: views/form.php:111
 msgid "Queue No Answer"
-msgstr ""
+msgstr "Очередь без ответа"
 
 #: views/form.php:745
 msgid "Queue Number"
@@ -864,7 +864,7 @@ msgstr "Номер очереди"
 
 #: assets/js/queues.js:40
 msgid "Queue Number must not be blank"
-msgstr ""
+msgstr "Номер очереди не может быть пустым"
 
 #: views/form.php:82
 msgid "Queue Password"
@@ -872,15 +872,15 @@ msgstr "Пароль очереди"
 
 #: install.php:9 /dev/shm/freepbx/queues/install.php:22 queues.i18n.php:40
 msgid "Queue Pause Toggle"
-msgstr ""
+msgstr "Переключение паузы очереди"
 
 #: functions.inc/hook_core.php:64
 msgid "Queue State Detection"
-msgstr ""
+msgstr "Определение состояния очереди"
 
 #: install.php:8
 msgid "Queue Toggle"
-msgstr ""
+msgstr "Переключение очереди"
 
 #: views/form.php:1099
 msgid "Queue Weight"
@@ -888,12 +888,14 @@ msgstr "Вес очереди"
 
 #: views/form.php:1073
 msgid "Queue calls only (ringinuse=no)"
-msgstr ""
+msgstr "Только вызовы очереди (ringinuse=no)"
 
 #: assets/js/queues.js:53
 msgid ""
 "Queue name must not be blank and must contain only alpha-numeric characters"
 msgstr ""
+"Имя очереди не должно быть пустым и должно содержать только буквенно-"
+"цифровые символы"
 
 #: functions.inc/destination_registry.php:56
 #: functions.inc/destination_registry.php:73
@@ -917,7 +919,7 @@ msgstr "Модуль очередей"
 
 #: bin/queue_reset_stats.php:12
 msgid "Queues module not found or is disabled. Aborting!"
-msgstr ""
+msgstr "Модуль очередей не найден или отключен. Прерывание!"
 
 #: queues.i18n.php:28
 msgid ""
@@ -951,7 +953,7 @@ msgstr ""
 
 #: views/cron.php:84
 msgid "RUN"
-msgstr ""
+msgstr "Запуск"
 
 #: views/cron.php:50
 msgid "Random"
@@ -963,7 +965,7 @@ msgstr "Частота повторения"
 
 #: views/form.php:1469
 msgid "Report Hold Time"
-msgstr ""
+msgstr "Отчет о времени ожидания"
 
 #: Queues.class.php:216
 msgid "Reset"
@@ -1012,6 +1014,8 @@ msgid ""
 "Same as No except Callers will be admitted if there are paused agents who "
 "could become available."
 msgstr ""
+"То же самое, что и Нет, кроме абонентов, которые будут допущены, если есть "
+"приостановленные агенты, которые могут стать доступными."
 
 #: views/form.php:393
 msgid ""
@@ -1035,6 +1039,9 @@ msgid ""
 "phone then don't admit them. If agents are inuse or ringing someone else, "
 "caller will still be admitted."
 msgstr ""
+"То же, что и \"Да\", но более строго. Проще говоря, если ни один агент не "
+"может ответить на телефонный звонок, то вызов не будет допущен. Если агенты "
+"используются или звонят кому-то - абонент будет задержан в очереди."
 
 #: views/form.php:401
 msgid ""
@@ -1042,12 +1049,18 @@ msgid ""
 "phone then have them leave the queue. If agents are inuse or ringing someone "
 "else, caller will still be held."
 msgstr ""
+"То же, что и \"Да\", но более строго. Проще говоря, если ни один агент не "
+"может ответить на телефонный звонок - попросить абонентов покинуть очередь. "
+"Если агенты используются или звонят кому-то - абонент все равно будет "
+"задержан."
 
 #: views/form.php:403
 msgid ""
 "Same as Yes except Callers will remain in the Queue if there are paused "
 "agents who could become available."
 msgstr ""
+"То же, что и \"Да\", за исключением абонентов, которые останутся в очереди, "
+"если есть приостановленные агенты, которые могут стать доступными."
 
 #: views/form.php:1865
 msgid "Service Level"
@@ -1066,6 +1079,9 @@ msgid ""
 "Should we include estimated hold time in position announcements?  Either "
 "yes, no, or only once; hold time will not be announced if <1 minute"
 msgstr ""
+"Должны ли мы включать предполагаемое время ожидания в объявления о позиции? "
+"Либо да, нет или один раз; время ожидания не будет объявлено, если менее 1 "
+"минуты"
 
 #: views/form.php:1063
 msgid "Skip Busy Agents"
@@ -1119,12 +1135,16 @@ msgid ""
 "The absolute minimum time between the start of each queue position and/or "
 "estimated holdtime announcement"
 msgstr ""
+"Абсолютное минимальное время между началом каждой позиции в очереди и/или "
+"объявлением расчетного времени ожидания"
 
 #: views/form.php:1293
 msgid ""
 "The maximum number of seconds a caller can wait in a queue before being "
 "pulled out.  (0 for unlimited)."
 msgstr ""
+"Максимальное количество секунд, в течение которых абонент может ожидать в "
+"очереди, прежде чем его разъединят. (0 для неограниченного)."
 
 #: views/form.php:1348
 msgid ""
@@ -1163,7 +1183,7 @@ msgstr "Синхронизация и параметры агента"
 #: views/form.php:393 views/form.php:402 views/form.php:1649
 #: views/form.php:1683
 msgid "Ultra Strict"
-msgstr ""
+msgstr "Ультра строгий"
 
 #: views/form.php:345 views/form.php:363
 msgid "Unlimited"
@@ -1182,18 +1202,24 @@ msgid ""
 "Use this number to dial into the queue, or transfer callers to this number "
 "to put them into the queue"
 msgstr ""
+"Используйте этот номер для помещения вызова в очередь или перевода абонентов "
+"на этот номер, чтобы поместить их в очередь"
 
 #: views/form.php:1879
 msgid ""
 "Used for service level statistics (calls answered within service level time "
 "frame)"
 msgstr ""
+"Используется для статистики уровня обслуживания (звонки, на которые отвечают "
+"в течение времени уровня обслуживания)"
 
 #: assets/js/queues.js:29
 msgid ""
 "Using a Regex filter is fairly advanced, please confirm you know what you "
 "are doing or leave this blank"
 msgstr ""
+"Использование фильтра регулярных выражений довольно продвинуто, пожалуйста, "
+"подтвердите, что вы знаете что делаете, или оставьте это поле пустым"
 
 #: views/form.php:847
 msgid "Wait Time Prefix"
@@ -1203,7 +1229,7 @@ msgstr "Префикс времени ожидания"
 msgid "Warning! Extension"
 msgstr "Осторожно! Внутренний номер"
 
-#: functions.inc/queue_conf.php:212
+#: functions.inc/queue_conf.php:219
 msgid ""
 "Warning, there are compound recordings configured in one or more Queue "
 "configurations. Queues can not play these so they have been truncated to the "
@@ -1269,6 +1295,8 @@ msgid ""
 "When set to YES, the following manager event will be generated: "
 "QueueMemberStatus"
 msgstr ""
+"Если установлено значение ДА, будет сгенерировано следующее событие: "
+"QueueMemberStatus"
 
 #: views/form.php:1546
 msgid ""
@@ -1276,6 +1304,10 @@ msgid ""
 "considered as a missed call and auto paused immediately or after the auto "
 "pause delay if configured"
 msgstr ""
+"Если установлено значение Да, устройства агентов, сообщающие о занятости при "
+"попытке вызова, будут рассматриваться как пропущенный вызов и автоматически "
+"приостанавливаться сразу или после автоматической задержки паузы, если "
+"настроено"
 
 #: views/form.php:1575
 msgid ""
@@ -1305,6 +1337,8 @@ msgstr ""
 msgid ""
 "When to schedule this job. Note enabling 'Random' overrides these settings"
 msgstr ""
+"Когда запланировать эту работу. Примечание: включение \"Random\" "
+"переопределяет эти настройки"
 
 #: views/form.php:1195
 msgid "Where calls should fail to"
@@ -1324,6 +1358,9 @@ msgid ""
 "enabled, Ringer Volume value will set based on the 'Ringer Volume Override "
 "Mode(RVOM)'."
 msgstr ""
+"Во время распределения вызовов в очереди у любого участника с включенной "
+"функцией FM/FM (Найди-меня/Следуй-сюда), значение громкости звонка будет "
+"установлено на основе \"Режима переопределения громкости звонка (RVOM)\"."
 
 #: views/form.php:1416
 msgid "Wrap-Up-Time"
@@ -1371,6 +1408,8 @@ msgid ""
 "You can require agents to enter a password before they can log in to this "
 "queue.<br><br>This setting is optional."
 msgstr ""
+"Вы можете потребовать агентов вводить пароль, прежде чем они смогут войти в "
+"эту очередь.<br><br>Этот параметр является необязательным."
 
 #: functions.inc.php:31
 msgid "day"

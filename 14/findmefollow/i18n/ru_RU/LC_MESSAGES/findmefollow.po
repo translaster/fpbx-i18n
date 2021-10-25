@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-23 12:14+0530\n"
-"PO-Revision-Date: 2021-10-21 11:18+0500\n"
+"PO-Revision-Date: 2021-10-25 14:51+0500\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.0\n"
-"Last-Translator: Dmitriy Q <krotesk@ya.ru>\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "Language: ru_RU\n"
@@ -197,7 +197,7 @@ msgstr "Включить Следуйте-сюда"
 
 #: views/ucp_config.php:28
 msgid "Enable the Findmefollow access in UCP for this user"
-msgstr "Включить доступ Найдименяследуйсюда в UCP для этого пользователя"
+msgstr "Включить доступ Найди-меня-следуй-сюда в UCP для этого пользователя"
 
 #: ucp/views/settings.php:62
 msgid ""
@@ -311,7 +311,7 @@ msgstr "Следуйте сюда"
 
 #: Findmefollow.class.php:886
 msgid "Follow Me Enabled [Blank to disable]"
-msgstr "Следуйте сюда включено [Пусто для отключения]"
+msgstr "Следуйте-сюда включено [Пусто для отключения]"
 
 #: Findmefollow.class.php:889 ucp/views/settings.php:27
 msgid "Follow Me List"
@@ -332,7 +332,7 @@ msgstr "Следуйте-сюда: %s"
 
 #: views/form.php:454
 msgid "Follow-Me"
-msgstr "Найди-меня"
+msgstr "Следуйте-сюда"
 
 #: functions.inc.php:727 views/form.php:478
 msgid "Follow-Me List"
@@ -363,7 +363,7 @@ msgstr "Список «Следуйте-сюда»"
 
 #: views/ucp_config.php:67
 msgid "Followme Ring Strategy Settings"
-msgstr "Настройки стратегии вызова Найди-меня"
+msgstr "Настройки стратегии вызова Следуйте-сюда"
 
 #: functions.inc.php:962 functions.inc.php:987 views/form.php:224
 #: views/form.php:620
@@ -392,7 +392,7 @@ msgstr ""
 #: functions.inc.php:591 views/form.php:336
 msgid "If set the followme will only be active when the calendar has an event."
 msgstr ""
-"Если установлено, последующее действие будет активным только тогда, когда в "
+"Если установлено - последующее действие будет активным только тогда, когда в "
 "календаре есть событие."
 
 #: functions.inc.php:770 views/form.php:212

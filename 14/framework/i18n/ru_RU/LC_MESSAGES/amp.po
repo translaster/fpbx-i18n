@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-05 08:29+0000\n"
-"PO-Revision-Date: 2021-06-04 10:02+0500\n"
+"PO-Revision-Date: 2021-11-23 15:00+0500\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.0\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -1000,7 +1000,7 @@ msgstr "Расширенный"
 
 #: amp.i18n.php:890
 msgid "Advanced Settings"
-msgstr "Дополнительные настройки"
+msgstr "Расширенные настройки"
 
 #: amp.i18n.php:12
 msgid "Advanced Settings Details"
@@ -1012,7 +1012,7 @@ msgstr "Агрегированные MWI"
 
 #: amp.i18n.php:738
 msgid "Aggresively Check for Duplicate Extensions"
-msgstr "Агрессивная проверка на дублирование внутренних номеров"
+msgstr "Настойчивая проверка на дублирование внутренних номеров"
 
 #: ../core/views/did/advanced_form.php:187
 msgid "Alert Info"
@@ -5188,7 +5188,7 @@ msgstr "Форсировать запуск пред-стоповых хуков
 
 #: ../core/functions.inc/drivers/PJSip.class.php:243
 msgid "Force use of return port."
-msgstr "Принудительное использование возвращенного порта."
+msgstr "Принудительное использование обратного порта."
 
 #: ../core/functions.inc/drivers/PJSip.class.php:297
 msgid "Forced"
@@ -13279,7 +13279,7 @@ msgstr "изменён"
 #: install.php:248
 #, php-format
 msgid "an error occured removing the packaged file/directory: %s"
-msgstr "ошибка при удалении файла/директории :%s"
+msgstr "ошибка при удалении файла/директории пакетов: %s"
 
 #: upgrades/2.10.1/migration.php:58
 msgid "an error occurred trying to write out manager.conf changes"

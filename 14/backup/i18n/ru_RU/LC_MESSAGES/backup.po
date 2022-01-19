@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-03 17:27+0000\n"
-"PO-Revision-Date: 2020-12-02 13:37+0500\n"
+"PO-Revision-Date: 2021-11-25 11:07+0500\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.0\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -902,7 +902,7 @@ msgstr "Обслуживание"
 
 #: Console/Backup.class.php:17
 msgid "Manage Backup jobs"
-msgstr ""
+msgstr "Управление заданиями резервного копирования"
 
 #: views/cron.php:46
 msgid "March"
@@ -1047,7 +1047,7 @@ msgstr "Октябрь"
 
 #: views/backup/backup.php:89
 msgid "On Failure Only"
-msgstr ""
+msgstr "Только в случае неудачи"
 
 #: assets/js/backup.js:101
 msgid "On the"
@@ -1105,6 +1105,9 @@ msgid ""
 "example, <tt>/home/backups/freepbx</tt>. A path without a leading slash will "
 "not work, and will behave in unexpected ways."
 msgstr ""
+"Путь на удаленном сервере. Это должен быть ПОЛНЫЙ ПУТЬ, начинающийся с / - "
+"например, <tt>/home/backups/freepbx</tt>. Путь без ведущей косой черты не "
+"будет работать и будет вести себя неожиданным образом."
 
 #: views/backup/backups.php:557
 msgid "Path to ssh key, example /home/asterisk/.ssh/id_rsa"
